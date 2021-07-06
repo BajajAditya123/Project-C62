@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+</head>
+
+<body>
+    <ul class="menu">
+        <li class="links"><a href="#poster">Home</a></li>
+        <li class="links"><a href="#grid-gallery">My Videos</a></li>
+        <li class="links"><a href="#slide-show">Work</a></li>
+    </ul>
+    <div class="container">
+        <section id="grid-gallery">
+            <h1>Grid gallery</h1>
+            <div class="line"></div>
+            <div class="column">
+                <div class="row"> <img src="blue.jpg"> <img src="Orange.png"> <img src="Pink%20tulip.jpg"> </div>
+                <div class="column">
+                    <div class="row"> <img src="purple.jpg"> <img src="Red%20rose.jpg"> <img src="violet.jpg"> </div>
+                    <div class="column">
+                        <div class="row"> <img src="White.jpg"> <img src="yellow.jpg"> </div>
+        </section>
+        <div class="container">
+            <section id="slide-show">
+                <h1>Apps</h1>
+                <div class="line"></div>
+
+            </section>
+            <h1>Click on the games to explore</h1>
+            <h3>These games are created in Sprite Lab. Click on the game to Play</h3>
+            <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <center>
+
+                            <img src="blue.jpg" class="img-respnsive">
+
+                            <div class="carousel-content">
+                                <p>Blue Flower</p>
+                            </div>
+                        </center>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="item">
+            <center>
+
+                <img src="Orange.png" class="img-respnsive">
+
+                <div class="carousel-content">
+                    <p>Orange Flower</p>
+                </div>
+            </center>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+        <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
+</body>
+
+</html>
